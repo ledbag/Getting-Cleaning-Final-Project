@@ -27,17 +27,11 @@ First file "HAR_data_mean_std_XYZ.txt" includes the following data:
 - Mean for X,Y and Z.
 - Standard Deviation for X,Y and Z.
 
-Second file "Summary_HAR_subject.txt" includes the following data:
+Second file "By_group_data_mean" includes the following data:
 =====================================
 -Subject (from 1 to 30)
--Mean for MeanX,MeanY and MeanZ
--Mean for StdX,StdY,StdZ
-
-Third file "Summary_HAR_activity.txt" includes the following data:
-=====================================
 -Activity (WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING & LAYING)
--Mean for MeanX,MeanY and MeanZ
--Mean for StdX,StdY,StdZ
+-Mean for all variables 
 
 The dataset includes the following files:
 =========================================
@@ -45,8 +39,7 @@ The dataset includes the following files:
 - 'README.txt'
 -  "Codebook_data_mean_std_XYZ.txt" 
 - "HAR_data_mean_std_XYZ.txt" 
-- "Summary_HAR_subject.txt" 
-- "Summary_HAR_activity.txt"
+- "By_group_data_mean.txt" 
 -  R script "run_analysis.R"
 
 Notes: 
@@ -56,12 +49,4 @@ Notes:
 
 
 
-License:
-========
-Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-
-This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
-
-Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
